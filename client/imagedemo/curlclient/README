@@ -1,0 +1,9 @@
+1.put main.cpp under root path
+2.put your depend code under src folder,as this template do,
+	you need add CMakeLists.txt to every sub folder,and 
+	you can write .txt as this template do
+3.you can modify CMakeLists.txt under root path, you can change project name,
+	the target name,and you libs name,and so on...
+4.after you do the work mentioned, you can run ./build.sh, this script 
+	will auto mkdir some folders ,then cmake and make
+
