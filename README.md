@@ -1,5 +1,5 @@
 #			Online Object Detection System Based On Deep Learning
-	This project is a system for objects detection based on deep learning(darknet --yolo),and includes some parts:
+*	This project is a system for objects detection based on deep learning(darknet --yolo),and includes some parts:
 ## 1.video stream detect
 	use ffmpeg,perform that:
 *	 1) get video stream from camera/file/net video stream
@@ -26,8 +26,8 @@
 	libevent as http server in child process--- wait for client --- get a request --> write image stream as file --> signal to main process and yolo read file and detect -->write detect results in a json file --> fifo to wake up child process --> read json file and sent to client with http
 
 
-#CAUSTION:
+## CAUSTION:
 	when use codes in server folder,you must configure darknet already,then you can put these files in src,and replace default Makefile with my Makefile.Also, you have to configure libs I have used.
 
-#	Something maybe more clear in my blog:www.cnblogs.com/tla001
+##	Something maybe more clear in my blog:www.cnblogs.com/tla001
 	
